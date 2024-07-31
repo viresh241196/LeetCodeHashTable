@@ -20,4 +20,8 @@ public class Count_Pairs_That_Form_a_Complete_Day_I {
         }
         return count;
     }
+        // return (int) IntStream.range(0,hours.length-1)
+    //         .flatMap(i-> IntStream.range(i+1,hours.length)
+    //         .filter(j-> (hours[i]+ hours[j]) % 24 == 0 ))
+    //         .count();
 }
